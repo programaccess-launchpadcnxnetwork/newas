@@ -1,0 +1,236 @@
+/* ================================================
+    RoadMap
+================================================ */
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3.9,
+    spaceBetween: 40,
+    centeredSlides: false,
+    autoplay: {
+        delay: 3000,
+    },
+    /*pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },*/
+    breakpoints: {
+        // when window width is >= 320px
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 20
+        },
+        360: {
+            slidesPerView: 1,
+            spaceBetween: 20
+        },
+        // when window width is >= 480px
+        480: {
+            slidesPerView: 1.1,
+            spaceBetween: 30
+        },
+        // when window width is >= 640px
+        640: {
+            slidesPerView: 1.9,
+            spaceBetween: 40
+        },
+        767: {
+            slidesPerView: 2.2,
+            spaceBetween: 40
+        },
+        992: {
+            slidesPerView: 3.2,
+            spaceBetween: 40
+        },
+        1024: {
+            slidesPerView: 2.9,
+            spaceBetween: 40
+        },
+        1200: {
+            slidesPerView: 2.8,
+            spaceBetween: 40
+        },
+        1366: {
+            slidesPerView: 2.9,
+            spaceBetween: 40
+        },
+        1430: {
+            slidesPerView: 3.3,
+            spaceBetween: 40
+        },
+        1600: {
+            slidesPerView: 3.9,
+            spaceBetween: 40
+        },
+        1680: {
+            slidesPerView: 3.9,
+            spaceBetween: 40
+        }
+    }
+});
+/* ================================================
+    Team
+================================================ */
+var swiper_team = new Swiper(".swiper_team", {
+    slidesPerView: 6.5,
+    spaceBetween: 20,
+    centeredSlides: false,
+    autoplay: {
+        delay: 3000,
+    },
+    /*pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },*/
+    breakpoints: {
+        // when window width is >= 320px
+        320: {
+            slidesPerView: 2.3,
+            spaceBetween: 20
+        },
+        // when window width is >= 480px
+        480: {
+            slidesPerView: 2.3,
+            spaceBetween: 30
+        },
+        // when window width is >= 640px
+        640: {
+            slidesPerView: 4.9,
+            spaceBetween: 20
+        },
+        767: {
+            slidesPerView: 4.9,
+            spaceBetween: 20
+        },
+        992: {
+            slidesPerView: 4.9,
+            spaceBetween: 20
+        },
+        1024: {
+            slidesPerView: 4.9,
+            spaceBetween: 20
+        },
+        1200: {
+            slidesPerView: 5.9,
+            spaceBetween: 20
+        },
+        1430: {
+            slidesPerView: 6.4,
+            spaceBetween: 20
+        },
+        1680: {
+            slidesPerView: 6.4,
+            spaceBetween: 10
+        }
+    }
+});
+
+/* ================================================
+    Logos
+================================================ */
+/*var swiper_logo = new Swiper(".swiper_logo", {
+    slidesPerView: 2.8,
+    spaceBetween: 20,
+    centeredSlides: false,
+    autoplay: {
+        delay: 2500,
+    },
+});*/
+
+var swiper_logo = new Swiper(".swiper_logo", {
+    slidesPerView: 2.8,
+    spaceBetween: 20,
+    centeredSlides: false,
+    speed: 4000,
+    autoplay: {
+        delay: 1,
+    },
+    loop: true,
+    /*slidesPerView:'auto',*/
+    allowTouchMove: false,
+    disableOnInteraction: false
+});
+/* ================================================
+    Mobile Mocks
+================================================ */
+var swiper_product = new Swiper(".swiper_product", {
+    slidesPerView: 2.2,
+    spaceBetween: 20,
+    centeredSlides: false,
+    autoplay: {
+        delay: 3000,
+    },
+    /*pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+    },*/
+});
+/* ================================================
+    Sticky Nav
+================================================= */
+jQuery(document).ready(function() {
+    jQuery(window).scroll(function() {
+        var winTop = jQuery(window).scrollTop();
+        if (winTop >= 1) {
+            jQuery(".homepage").addClass("sticky-header");
+            jQuery(".navbar-brand").addClass("sticky-logo")
+            jQuery("body").addClass("body-stick");
+        } else {
+            jQuery(".homepage").removeClass("sticky-header");
+            jQuery("body").removeClass("body-stick");
+            jQuery(".navbar-brand").removeClass("sticky-logo")
+        }
+    });
+    /*jQuery(".swap-img").click(function (){
+        jQuery(this).toggleClass("order-2");
+        jQuery(".calc-box-outer .coin-price-box-outer:first-child").toggleClass("reverse-1");
+        jQuery(".calc-box-outer .coin-price-box-outer:last-child").toggleClass("reverse-2");
+    })
+
+    jQuery(".swap-btn").click(function (){
+        jQuery(this).toggleClass("order-2");
+        jQuery(".calc-box-outer .coin-price-box-outer:first-child").toggleClass("reverse-1");
+        jQuery(".calc-box-outer .coin-price-box-outer:last-child").toggleClass("reverse-2");
+    })*/
+});
+
+/* ================================================
+    Multiple File Upload
+================================================= */
+
+/*updateList = function() {
+    var input = document.getElementById('file');
+    var output = document.getElementById('fileList');
+    var children = "";
+    for (var i = 0; i < input.files.length; ++i) {
+        children +=  '<li>'+ input.files.item(i).name + '<span class="remove-list" onclick="return this.parentNode.remove()">X</span>' + '</li>'
+    }
+    output.innerHTML = children;
+}*/
+/* ================================================
+    AOS Animation
+================================================= */
+
+AOS.init();
+
+/* ================================================
+    Menu icon
+================================================= */
+
+$(".drop-menu").click(function(){
+    $(".drop-menu").toggleClass("icon-change");
+});
+
+(function(){
+    if( $("body").width() >= 992 ){
+        $(".drop-menu").hover(function(){
+            $(".drop-menu").toggleClass("icon-change-web");
+        });
+    }
+}());
+
+if (navigator.userAgent.match(/samsung/i)) {
+    alert("You are using a defective browser (Samsung Internet) that " +
+        "might not be configured to display this website properly. " +
+        "You should consider using a proper standards-compliant " +
+        "browser instead. \n\n"+
+        "We recommend using Google Chrome.");
+}

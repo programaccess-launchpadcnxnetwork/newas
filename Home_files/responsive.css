@@ -1,0 +1,1227 @@
+@media (min-width:992px) {
+    #offcanvasExample {
+        position: static;
+        visibility: visible;
+        background-color: transparent;
+        transform: none;
+        width: 100%;
+        flex-direction: row;
+    }
+    .btn-close.text-reset {
+        display: none;
+    }
+    .drop-menu:hover ul {
+        display: block;
+    }
+}
+@media (max-width:1800px) {
+
+}
+@media (max-width:1600px) {
+    .single-team a {
+        font-size: 26px;
+    }
+
+
+}
+@media (max-width:1440px) {
+    .single-team h4 {
+        font-size: 18px;
+    }
+    .single-team p {
+        font-size: 14px;
+    }
+    .partner-img-wrap img {
+        padding: 0 10px 20px 0;
+        width: 32%;
+    }
+    .partner-icons {
+        min-height: 320px;
+    }
+    .download-app ul li a img {
+        max-width: 100%;
+    }
+    .side-imgs img:first-child {
+        top: 120px;
+        height: 750px;
+    }
+    .side-imgs img:last-child {
+        height: 580px;
+        top: 70px;
+    }
+    .banner-content-wrap h1 {
+        font-size: 36px;
+    }
+    .banner-content-wrap p {
+        font-size: 18px;
+    }
+    .mining-content h1 {
+        font-size: 36px;
+    }
+    .mining-content p {
+        font-size: 18px;
+    }
+    .web-mock-showcase .utility-apps-single {
+        margin-right: 25px;
+    }
+    .web-mock-showcase .utility-apps-single:last-child {
+        margin-right: 0;
+    }
+    .hd-wraper h2 {
+        font-size: 36px;
+    }
+    .hd-wraper p {
+        font-size: 18px;
+    }
+    .swiper-content-wrap h4 {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+    .swiper-content-wrap {
+        padding: 20px 20px;
+        min-height: 500px;
+    }
+    .swiper-content-wrap ul li {
+        font-size: 14px;
+    }
+    .operation-shape img {
+        top: 60px;
+        height: 70%;
+    }
+    .wallet-pg-logos .img-wraper img {
+        width: 75%;
+    }
+    .wallet-easy-sec .make-online-shape img {
+        bottom: 250px;
+        height: 50%;
+    }
+    .easy-wallet-list ul li {
+        max-width: 165px;
+    }
+}
+@media (max-width:1300px) {
+
+}
+@media (max-width:1199px) {
+    .navbar-nav li {
+        padding: 0 10px;
+    }
+    .navbar-brand span {
+        font-size: 18px;
+    }
+    #offcanvasExample {
+        align-items: center;
+    }
+    .navbar-nav li a {
+        font-size: 14px;
+    }
+    .single-team h4 {
+        font-size: 18px;
+    }
+    .single-team p {
+        font-size: 14px;
+    }
+    .side-imgs img:first-child {
+        top: 120px;
+        height: 650px;
+    }
+    .side-imgs img:last-child {
+        height: 400px;
+        top: 130px;
+    }
+    .web-mock-showcase .utility-apps-single {
+        margin-right: 15px;
+    }
+    .web-mock-showcase .utility-apps-single:last-child {
+        margin-right: 0;
+    }
+    .utility-apps-sec .utility-shapes img:first-child {
+        height: 80%;
+        top: -130px;
+    }
+    .logos-sec-web .img-wraper img {
+        width: 70%;
+    }
+    .partners-shapes img {
+        height: 500px;
+    }
+}
+@media (max-width:991px) {
+    .btn-close.text-reset {
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        background-color: #fff;
+        border-radius: 50%;
+        padding: 10px 10px;
+        opacity: 0;
+    }
+    #offcanvasExample {
+        justify-content: flex-start;
+    }
+    .offcanvas-start {
+        align-items: center;
+        justify-content: center;
+        background-color: #000;
+        width: 300px;
+    }
+    .navbar-nav li {
+        padding: 15px 0;
+        text-align: center;
+    }
+    .navbar-nav li a {
+        font-weight: 400;
+        font-size: 18px;
+        color: #D0D0D0 !important;
+        padding: 0;
+    }
+    .navbar-brand span {
+        font-size: 16px;
+        font-weight: 600;
+        padding-left: 5px;
+    }
+    .navbar-nav {
+        align-items: flex-start;
+        margin-left: 50px;
+        width: 100%;
+        margin-top: 50px !important;
+    }
+    .navbar-brand img {
+        width: 34px;
+    }
+    .navbar-nav li img {
+        display: inline-block;
+        padding-right: 10px;
+    }
+    .navbar-nav h4 {
+        display: block;
+        font-weight: 600;
+        font-size: 26px;
+        margin-bottom: 20px;
+    }
+    .drop-menu ul li {
+        text-align: left;
+        padding-left: 20px;
+        padding-bottom: 10px;
+    }
+    .nav-wraper {
+        padding: 5px 0;
+    }
+    .mbl-banner-shape {
+        display: block;
+    }
+    .web-shape-banner {
+        display: none;
+    }
+    .mbl-banner-shape img {
+        position: absolute;
+    }
+    .mbl-banner-shape img:nth-of-type(1) {
+        left: 0;
+        top: 110px;
+    }
+    .mbl-banner-shape img:nth-of-type(2) {
+        right: 0;
+        top: 60px;
+    }
+    .mbl-banner-shape img:nth-of-type(3) {
+        right: 0;
+        bottom: 0;
+    }
+    .mbl-banner-shape img:nth-of-type(4) {
+        left: 0;
+        bottom: 0;
+    }
+    .banner-content-wrap img {
+        width: 130px;
+    }
+    .banner-content-wrap h1 {
+        font-size: 26px;
+    }
+    .banner-content-wrap p {
+        font-size: 14px;
+    }
+    .banner-sec {
+        background-size: cover;
+    }
+    .mining-content h1 {
+        font-size: 26px;
+        line-height: 1.9;
+        margin-bottom: 15px;
+    }
+    .mining-content p {
+        font-size: 14px;
+        line-height: 29px;
+    }
+    .mining-sec .mining-content .btn-wrap {
+        display: none;
+    }
+    .mb-swap-sec {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        background-color: #0B0B0B;
+    }
+    .mb-swap-sec .hd-wraper, .mb-swap-sec .partner-icons {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+    .mb-swap-sec .partners-sec {
+        margin-top: 0;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .hd-wraper h2 {
+        font-size: 26px;
+    }
+    .mb-swap-sec .hd-wraper p {
+        display: none;
+    }
+    .partner-img-wrap img {
+        padding: 0 20px 30px 0;
+        width: 99px;
+    }
+    .partner-icons {
+        min-height: auto;
+        margin-bottom: 20px;
+    }
+    .mb-swap-sec .hd-wraper {
+        margin-bottom: 30px;
+    }
+    .partners-shapes-web {
+        display: none;
+    }
+    .partners-shapes-mbl {
+        display: block;
+    }
+    .partners-shapes-mbl img {
+        position: absolute;
+    }
+    .partners-shapes-mbl img:first-child {
+        right: 0;
+        top: 0;
+    }
+    .partners-shapes-mbl img:last-child {
+        right: -9px;
+        bottom: -70px;
+        height: 27%;
+    }
+    .mb-swap-sec .partner-icons {
+        background-color: #141414;
+    }
+    .token-sec {
+        padding-top: 0;
+    }
+    .mb-swap-sec .token-sec .hd-wraper p {
+        display: block;
+        font-size: 14px;
+    }
+    .cnx-token-wrap h5 {
+        font-size: 14px;
+    }
+    .table-hd ul li {
+        font-size: 9px;
+    }
+    .content-single ul li p {
+        font-size: 9px;
+    }
+    .table-content-list .content-single li:first-child {
+        max-width: 160px;
+    }
+    .table-hd ul li:first-child {
+        max-width: 164px;
+    }
+    .table-content-list {
+        margin-bottom: 30px;
+    }
+    .presale-info-img {
+        display: none;
+    }
+    .single-supply {
+        display: none;
+    }
+    .presale-round-wrap .table-content-list .content-single li:first-child {
+        max-width: 110px;
+    }
+    .presale-round-wrap .table-hd ul li:first-child {
+        max-width: 120px;
+    }
+    .token-shapes {
+        display: none;
+    }
+    .roadmap-sec .swiper-outer-wraper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .roadmap-sec .hd-wraper p {
+        font-size: 14px;
+    }
+    .roadmap-sec {
+        margin-top: 0;
+        padding-top: 30px;
+        padding-bottom: 50px;
+        background-color: #0B0B0B;
+    }
+    .roadmap-sec .swiper-content-wrap h4 {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+    .roadmap-sec .swiper-content-wrap {
+        padding: 20px 20px;
+        min-height:490px;
+    }
+    .roadmap-sec .swiper-content-wrap h5 {
+        font-size: 14px;
+    }
+    .inprogress-content h5 img, .completed-content  h5 img {
+        width: 20px;
+        margin-right: 10px;
+    }
+    .token-shapes-mbl {
+        display: block;
+    }
+    .token-shapes-mbl img:first-child {
+        position: absolute;
+        left: 0;
+        top: -90px;
+    }
+    .token-shapes-mbl img:last-child {
+        position: absolute;
+        left: 0;
+        bottom: -110px;
+        z-index: 9;
+    }
+    .get_cnx_btn_mbl {
+        display: block;
+        text-align: right;
+        position: relative;
+        z-index: 9;
+    }
+    .get_cnx_btn_mbl a {
+        padding: 10px 20px;
+        border: 1px solid #FFA719;
+        border-radius: 8px;
+        font-size: 14px;
+    }
+    .operation-sec {
+        display: none;
+    }
+    .roadmap-shapes-mbl {
+        display: block;
+    }
+    .roadmap-shapes-mbl img:first-child {
+        position: absolute;
+        left: 0;
+        top: -80px;
+        opacity: 0;
+    }
+    .roadmap-shapes-mbl img:last-child {
+        position: absolute;
+        right: 0;
+        top: -20px;
+    }
+    .contact-sec {
+        display: block;
+        background-color: #0B0B0B;
+    }
+    .contact-wrapepr h2 {
+        font-size: 26px;
+        font-weight: 700;
+    }
+    .contact-wrapepr p {
+        color: #9D9D9D;
+        font-size: 14px;
+    }
+    .contact-wrapepr {
+        position: relative;
+        z-index: 9;
+    }
+    .contact_btn {
+        display: flex;
+        justify-content: space-between;
+    }
+    .contact_btn a {
+        border: 1px solid #7B7B7B;
+        border-radius: 12px;
+        padding: 15px 10px;
+        max-width: 177px;
+        font-size: 14px;
+        width: 100%;
+        text-align: center;
+    }
+    .logos-sec {
+        display: none;
+    }
+    .company-info img {
+        width: 30px;
+    }
+    .company-info h3 {
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    .location img, .location h4 {
+        display: none;
+    }
+    .location p {
+        font-size: 13px;
+    }
+    .location {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .copyright-wrap {
+        display: none;
+    }
+    .download-app {
+        display: none;
+    }
+    .mbl-links {
+        display: block;
+    }
+    .mbl-links ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 30px;
+    }
+    .mbl-links ul li {
+        padding: 5px 20px;
+    }
+    .mbl-links ul li a {
+        color: #8C8C8C;
+        font-size: 13px;
+        font-weight: 600;
+    }
+    .mobile-logos {
+        display: block;
+        background-color: #0B0B0B;
+        margin-top: 50px;
+        padding: 10px 0;
+    }
+    .img-wraper img {
+        height: 25px;
+    }
+    .ftr-sec {
+        padding: 50px 0 50px 0;
+    }
+    .single-team h4 {
+        font-size: 16px;
+    }
+    .single-team p {
+        font-size: 12px;
+    }
+    .cnx-visa-sec .banner-content-wrap img {
+        width: auto;
+        height: 454px;
+    }
+    .visa-circle {
+        height: auto !important;
+    }
+    .cnx-visa-sec  .get_btn img {
+        width: auto;
+        height: auto;
+    }
+    .card-info ul li p {
+        font-size: 10px;
+    }
+    .card-info ul li h4 {
+        font-size: 14px;
+        padding-left: 25px;
+    }
+    .card-mockup-img {
+        margin-right: 20px;
+    }
+    .card-info ul li h4:before {
+        top: -1px;
+        width: 16px;
+        height: 16px;
+    }
+    .card-info {
+        margin-top: 5px;
+    }
+    .make-online-shape img {
+        bottom: 30px;
+        height: 50%;
+    }
+    .down_btn a {
+        max-width: 110px;
+        margin: 0 0;
+    }
+    .online-hd h2 {
+        font-size: 26px;
+    }
+    .online-hd p {
+        font-size: 14px;
+    }
+    .online-hd h2 i {
+        font-size: 20px;
+    }
+    .access-hd p {
+        font-size: 14px;
+    }
+    .access-hd h2 {
+        font-size: 26px;
+    }
+    .info-btn-wrap h4 {
+        font-size: 18px;
+    }
+    .info-btn-wrap a {
+        border: 1px solid #FF8900;
+        font-size: 12px;
+        padding: 15px 20px;
+    }
+    .info-btn-wrap p {
+        font-size: 14px;
+    }
+    .atm-acc-shapes img:last-child {
+        bottom: -200px;
+        height: 80%;
+    }
+    .crypto-hd h2 {
+        font-size: 26px;
+    }
+    .crypto-hd p {
+        font-size: 14px;
+    }
+    .visa-ftr-shape img {
+        bottom: 60px;
+        height: 100%;
+    }
+    .get_card a {
+        padding: 13px 15px;
+        font-size: 14px;
+    }
+    .walletx-sec .banner-content-wrap img {
+        width: auto;
+    }
+    .blue-nav .navbar-toggler span {
+        background: #0275E9;
+    }
+    .easy-wallet-list ul li {
+        max-width: 165px;
+    }
+    .create-wallet .atm-acc-shapes img:first-child {
+        height: 30%;
+    }
+    .create-wallet .atm-acc-shapes img:last-child {
+        bottom: -100px;
+        height: 40%;
+    }
+    .p-wallet-shape-shape img {
+        bottom: -280px;
+        height: 50%;
+    }
+    .inv-sec-wrap {
+        padding: 20px 20px;
+    }
+    .inv-sec-wrap a {
+        font-size: 13px;
+        padding: 15px 25px;
+    }
+
+}
+@media (max-width:900px) {
+    .web-mock-showcase {
+        display: none;
+    }
+    .mobile-product-mock-slider {
+        display: block;
+        border-top: 1px solid #E18B00;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        border-bottom: 1px solid #E18B00;
+        background: transparent linear-gradient(180deg, #00000099 0%, #2f2f2f 100%) 0% 0% no-repeat;
+        margin-top: 30px;
+        position: relative;
+    }
+    .mobile-product-mock-slider .utility-apps-single h4 {
+        margin-bottom: 0;
+        font-size: 14px;
+        text-align: center;
+    }
+    .mining-sec {
+        margin-top: 30px;
+        position: relative;
+    }
+    .app-sec-shape {
+        display: block;
+    }
+    .app-sec-shape img {
+        position: absolute;
+        top: 0;
+        opacity: 0.4;
+    }
+}
+@media (max-width:767px) {
+    .whitepaper-hd h2 img {
+        display: inline-block;
+        margin-right: 8px;
+    }
+    .whitepaper-hd {
+        text-align: left;
+        margin-bottom: 40px;
+    }
+    .whitepaper-hd h2 {
+        font-size: 22px;
+    }
+    .whitepaper-hd p {
+        display: none;
+    }
+    .whitepaper-docs {
+        flex-direction: column;
+    }
+    .whitepaper-doc {
+        display: flex;
+        justify-content: flex-start;
+        max-width: 100%;
+        margin-bottom: 15px;
+    }
+    .whitepaper-doc a h3 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .whitepaper-doc a {
+        border-radius: 12px;
+        padding: 24px 0;
+        max-width: 160px;
+        margin-right: 25px;
+    }
+    .whitepaper-inner {
+        text-align: left;
+    }
+    .whitepaper-doc p {
+        font-size: 13px;
+    }
+    .whitepaper-ftr .location  {
+        display: none;
+    }
+    .whitepaper-sec {
+        padding: 95px 0 35px 0;
+    }
+    .whitepaper-doc a img {
+        height: 18px;
+    }
+    .cop-hd-wrap h2 {
+        font-size: 22px;
+    }
+    .cop-hd-wrap p {
+        font-size: 14px;
+    }
+    .cop-hd-wrap {
+        text-align: left;
+    }
+    .cop-form-wrap .form-group label {
+        font-size: 14px;
+    }
+    .cop-form-wrap .form-group input {
+        height: 50px;
+    }
+    .cop-outer {
+        background: transparent linear-gradient(180deg, #060606 0%, #000 100%) 0% 0% no-repeat;
+        padding: 100px 0 100px 0;
+    }
+    .coop-ftr .location  {
+        display: none;
+    }
+    .coop-ftr {
+        padding-top: 0;
+    }
+    .single-team img {
+        max-width: 100%;
+    }
+    .single-team h4 {
+        font-size: 14px;
+    }
+    .single-team p {
+        font-size: 11px;
+    }
+    .team-hd h2 {
+        font-size: 16px;
+    }
+    .team-hd p {
+        display: none;
+    }
+    .team-hd {
+        text-align: left;
+        margin-top: 25px;
+        margin-bottom: 30px;
+    }
+    .single-team a {
+        position: absolute;
+        font-size: 20px;
+        right: 10px;
+    }
+    .team-hd h2 img {
+        display: inline-block;
+    }
+    .team-wrap {
+        padding: 95px 0 0 0;
+    }
+    .partners-sec {
+        padding-bottom: 0;
+        padding-top: 40px;
+    }
+    .team-ftr .location  {
+        display: none;
+    }
+    .team-pg-hd {
+        display: block;
+        margin-bottom: 25px;
+    }
+    .team-pg-hd h2 {
+        font-size: 16px;
+        font-weight: 700;
+    }
+    .team-pg-hd span {
+        display: block;
+        background: transparent linear-gradient(90deg, #000000 0%, #212121 50%, #212121 100%, #00000000 100%) 0% 0% no-repeat;
+        width: 110%;
+        height: 53px;
+        margin-top: -43px;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .partner-icons h4 {
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+    .cnx-visa-webshape {
+        display: none;
+    }
+    .visa-circle {
+        display: none;
+    }
+    .cnx-visa-top-shape {
+        display: block;
+    }
+    .cnx-visa-top-shape img {
+        position: absolute;
+        left: 0;
+        top: 190px;
+        height: 35%;
+    }
+    .cnx-visa-sec .banner-content-wrap img {
+        width: auto;
+        height: 454px;
+    }
+    .cnx-visa-sec .get_btn {
+        display: none;
+    }
+    .get_btn_mbl {
+        display: block;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .get_btn_mbl a {
+        background-color: #FF8900;
+        color: #fff;
+        max-width: 155px;
+        border-radius: 12px;
+        width: 100%;
+        padding: 9px 0;
+        font-size: 14px;
+    }
+    .cnx-visa-sec .banner-wraper {
+        align-items: flex-start;
+        padding-top: 10px;
+    }
+    .visa-mbl {
+        display: block;
+        position: absolute;
+        height: auto !important;
+        right: 0;
+        left: auto !important;
+        z-index: 99;
+        top: 280px !important;
+    }
+    .make-online-shape {
+        display: none;
+    }
+    .make-online-shape-mbl {
+        display: block;
+    }
+    .make-online-shape-mbl img {
+        position: absolute;
+        right: 0;
+        top: -170px;
+    }
+    .online-hd h2 {
+        font-size: 22px;
+    }
+    .online-hd p {
+        font-size: 14px;
+    }
+    .make-online-sec {
+        padding-top: 0;
+        padding-bottom: 50px;
+        background-size: 180%;
+        background-position: center 60px;
+    }
+    .online-hd h2 i {
+        font-size: 22px;
+    }
+    .card-info ul li h4 {
+        font-size: 14px;
+        padding-left: 25px;
+    }
+    .card-info ul li p {
+        font-size: 9px;
+    }
+    .card-info ul li {
+        margin-bottom: 20px;
+    }
+    .card-info ul li h4:before {
+        width: 15px;
+        height: 15px;
+        top: 1px;
+    }
+    .card-info {
+        margin-top: 0;
+    }
+    .make-online-sec .btn-wrap {
+        display: none;
+    }
+    .card-mockup-img {
+        margin-right: 20px;
+    }
+    .make-online-sec .online-hd {
+        margin-bottom: 35px;
+    }
+    .pick-card-mbl {
+        display: inline-block;
+        border-radius: 12px;
+        border: 1px solid #965505;
+        font-size: 14px;
+        max-width: 155px !important;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+        margin-top: 0 !important;
+    }
+    .down_app_wrap {
+        display: none;
+    }
+    .access-hd h2 {
+        font-size: 22px;
+    }
+    .access-hd p {
+        font-size: 14px;
+    }
+    .atm-acc-shapes {
+        display: none;
+    }
+    .access-hd {
+        margin-bottom: 0;
+    }
+    .info-btn-wrap h4 {
+        font-size: 16px;
+    }
+    .info-btn-wrap p {
+        font-size: 12px;
+    }
+    .info-btn-wrap a {
+        font-size: 12px;
+        padding: 13px 10px;
+    }
+    .cards-wraper {
+        margin-top: 30px;
+    }
+    .crypto-hd h2 img {
+        display: none;
+    }
+    .crypto-hd h2 {
+        font-size: 22px;
+        line-height: 1.8;
+    }
+    .crypto-hd p {
+        font-size: 14px;
+    }
+    .crypto-convert-sec {
+        padding-top: 30px;
+        margin-top: 50px;
+        background: transparent linear-gradient(180deg, #262626 0%, #060606 53%, #262626 100%) 0% 0% no-repeat;
+    }
+    .crypto-hd {
+        padding-bottom: 20px;
+    }
+    .crypto-convert-img-sec {
+        background: transparent linear-gradient(180deg, #262626 0%, #060606 53%, #2C2C2C 100%) 0% 0% no-repeat;
+    }
+    .crypto-fea-wrap {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .get_card {
+        padding-left: 0;
+    }
+    .get_card a {
+        width: 100%;
+        text-align: center;
+    }
+    .convert-visa-icon {
+        display: block;
+        text-align: right;
+        margin-top: -30px;
+        margin-bottom: 20px;
+    }
+    .visa-ftr-shape {
+        display: none;
+    }
+    .convert-visa-icon img {
+        width: 55px;
+    }
+    .wallet-blue-shapes-web {
+        display: none;
+    }
+    .wallet-top-shape {
+        display: block;
+    }
+    .wallet-top-shape img {
+        position: absolute;
+        left: 0;
+        top: 190px;
+        height: 35%;
+    }
+    .walletx-sec .banner-content-wrap img {
+        width: auto;
+        height: 454px;
+    }
+    .walletx-sec .get_btn img {
+        height: 41px;
+    }
+    .walletx-sec .banner-wraper {
+        align-items: flex-start;
+        padding-top: 20px;
+        height: auto;
+    }
+    .wallet-easy-sec {
+        padding-top: 50px;
+    }
+    .walletx-sec .get_btn a {
+        margin: 15px 10px 0 10px;
+        display: block;
+    }
+    .p-wallet-shape-shape img {
+        display: none;
+    }
+    .make-online-shape-mbl {
+        display: block;
+    }
+    .make-online-shape-mbl img {
+        position: absolute;
+        right: 0;
+        top: -170px;
+    }
+    .wallet-easy-sec .online-hd h2 img {
+        width: 20px;
+    }
+    .wallet-easy-sec .pick-card-mbl {
+        border-color: #0076FF;
+    }
+    .create-wallet .access-hd h2 i {
+        font-size: 22px;
+    }
+    .create-wallet .access-hd p br {
+        display: none;
+    }
+    .easy-wallet-list {
+        display: none;
+    }
+    .easy-wallet-mock-wraper {
+        display: flex;
+    }
+    .easy-wallet-info h4 {
+        font-size: 12px;
+        font-weight: 700;
+    }
+    .easy-wallet-info h4 i {
+        color: #2bf542;
+    }
+    .easy-wallet-info p {
+        font-size: 11px;
+        color: #A6A5A4;
+        font-weight: 500;
+    }
+    .create-wallet .access-hd {
+        margin-bottom: 35px;
+    }
+    .easy-wallet-info a {
+        border-color: #0076FF;
+    }
+    .easy-wallet-mock {
+        width: 150px;
+        margin-left: 30px;
+    }
+    .easy-wallet-info {
+        display: block;
+    }
+    .create-wallet {
+        background-image: url('../images/banner-glow-blue.svg');
+        padding-top: 0;
+        padding-bottom: 50px;
+        background-size: 180%;
+        background-position: center 60px;
+    }
+    .app_btn_wrap {
+        display: none;
+    }
+    .p-wallet-sec .money-mockup-wrap ul li .pick-card-mbl {
+        display: block;
+    }
+    .inv-sec-wrap {
+        display: none;
+    }
+    .terms-content-wraper h2 {
+        font-size: 26px;
+        line-height: 1.6;
+    }
+    .terms-content-wraper h4 {
+        font-size: 20px;
+        line-height: 1.8;
+    }
+    .terms-content-wraper p, .terms-content-wraper ul li {
+        font-size: 14px;
+    }
+    .mobile-logos .swiper-wrapper {
+        transition-timing-function: linear !important;
+    }
+    .social-links ul li {
+        padding: 0 13px;
+    }
+    .social-links ul li a {
+        font-size: 16px;
+    }
+    .team-hd span {
+        display: block;
+        background: transparent linear-gradient(90deg, #000000 0%, #212121 50%, #212121 100%, #00000000 100%) 0% 0% no-repeat padding-box;
+        width: 110%;
+        height: 53px;
+        margin-top: -43px;
+        margin-left: -15px;
+        margin-right: -15px;
+    }
+    .team-sec-bg {
+        background: transparent linear-gradient(180deg, #1A1A1A 0%, #1D1D1D 20%, #222222 62%, #171717 88%, #000000 100%) 0% 0% no-repeat;
+    }
+    .team-sec-bg .partner-icons {
+        background-color: #141414;
+    }
+    .team-sec-bg .team-wrap {
+        background: none;
+    }
+    .roadmap-shapes {
+        display: none;
+    }
+    .cnx-token-wrap h5 {
+        border-radius: 14px 14px 0 0;
+    }
+    .cnx-token-wrap {
+        border-radius: 14px;
+        z-index: 9;
+    }
+
+    .offical-1 .partner-img-wrap, .offical-2 .partner-img-wrap {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .offical-1 .partner-img-wrap img {
+        padding: 0 40px 30px 0;
+        width: 90px;
+    }
+    .offical-1 .partner-img-wrap img:nth-child(3) {
+        order: 4;
+        padding-right: 0;
+        width: 50px;
+    }
+    .offical-1 .partner-img-wrap img:nth-child(4) {
+        order: 5;
+        width: 120px;
+    }
+    .offical-1 .partner-img-wrap img:last-child {
+        order: 3;
+    }
+    .offical-2 .partner-img-wrap img {
+        padding: 0 30px 30px 0;
+        width: 105px;
+    }
+    .offical-2 .partner-img-wrap img:nth-child(2) {
+        order: 4;
+    }
+    .offical-2 .partner-img-wrap img:nth-child(3) {
+        order: 5;
+        width: 110px;
+        padding-right: 0;
+    }
+    .offical-2 .partner-img-wrap img:nth-child(4) {
+        order: 2;
+    }
+    .offical-2 .partner-img-wrap img:nth-child(5) {
+        order: 3;
+        padding-right: 0;
+    }
+    .icon-change .fa {
+        transform: rotate(180deg);
+    }
+    .icon-change ul {
+        display: block;
+    }
+    .terms-sec {
+        padding-top: 20px;
+    }
+    .hd-wraper {
+        z-index: 9;
+    }
+    .mobile-logos .img-wraper {
+        width: 100px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .list-partner h5 {
+        font-size: 13px;
+        margin-bottom: 20px;
+    }
+    .drop-menu ul li a img {
+        width: 28px;
+    }
+    .walletx-sec .banner-content-wrap h1, .cnx-visa-sec .banner-content-wrap h1 {
+        font-size: 30px;
+    }
+    .beta-info-wrap p {
+        font-size: 13px;
+        font-weight: 500;
+    }
+    .beta_btn_wrap a {
+        margin: 10px 9px;
+        font-size: 13px;
+    }
+    .beta-info-outer .modal-footer {
+        padding-top: 0;
+    }
+
+}
+@media (max-width:360px) {
+    .offical-1 .partner-img-wrap img {
+        padding: 0 30px 30px 0;
+        width: 80px;
+    }
+    .offical-2 .partner-img-wrap img {
+        padding: 0 30px 30px 0;
+        width: 95px;
+    }
+    .mbl-links ul li {
+        padding: 5px 15px;
+    }
+    .whitepaper-doc p br {
+        display: none;
+    }
+    .card-info ul li h4 {
+        font-size: 11px;
+    }
+    .card-info ul li h4:before {
+        top: 0;
+    }
+    .contact_btn a {
+        max-width: 160px;
+    }
+}
